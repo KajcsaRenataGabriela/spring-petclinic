@@ -1,7 +1,5 @@
 package guru.springframework.springpetclinic.model;
 
-import org.hibernate.annotations.Cache;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
