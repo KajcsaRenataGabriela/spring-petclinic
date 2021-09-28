@@ -27,8 +27,8 @@ public class VisitSpringDataJPAService implements VisitService {
     }
 
     @Override
-    public Visit findById(Long id) {
-        return visitRepository.findById(id).orElse(null);
+    public Visit findById(Long aLong) {
+        return visitRepository.findById(aLong).orElse(null);
     }
 
     @Override
@@ -42,7 +42,7 @@ public class VisitSpringDataJPAService implements VisitService {
     }
 
     @Override
-    public void deleteById(Long id) {
-        visitRepository.deleteById(id);
+    public void deleteById(Long aLong) {
+        visitRepository.deleteById(aLong);
     }
 }
