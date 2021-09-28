@@ -40,6 +40,7 @@ public class OwnerSpringDataJPAService implements OwnerService {
 
     @Override
     public Owner save(Owner object) {
+        System.out.println("!!!!!!!!!!! IT'S ALIVE - SPRING DATA JPA SERVICE !!!!!!!!!!!");
         return ownerRepository.save(object);
     }
 
